@@ -1,0 +1,153 @@
+@import 'partials/variables';
+
+#footer{
+    .line{
+        background-color: $primary-c;
+        height: 22px;
+        margin-top: 29px;
+    }
+    .row{}
+    .footer_medium{
+        background-image: url(../img/cover_photos/map.jpg);
+        height: 350px;
+    .row{
+        
+        .footer_left{
+            .main_name{
+                a{
+                    img{
+                        height: 103px;
+                        margin-top: 78px;
+                        margin-left: 128px;
+                    }
+                }
+            }
+            .sosial{
+                ul{
+                    margin-left: 195px;
+                    margin-top: 51px;
+                    li{
+                        display: inline-block;
+                        padding-right: 10px;
+                        a{
+                            width: 50px;
+                            height: 50px;
+                            line-height: 40px;
+                            display: inline-block;
+                            text-align: center;
+                            line-height: 50px;
+                            border-radius: 50px;
+                            color: #fff;
+                            background: #343d23;
+                            transition: .3s all ease;
+                            &:hover{
+                                background: $icon-c;
+                            }
+                            i{
+                                font-size: 17px;
+                                line-height: 40px;
+                                color: $letter-c;
+                                .fa{
+                                    // display: inline-block;
+                                    // font-family: 'FontAwesome';
+                                    // font-size: normal;
+                                    // font-weight: 14px/1;
+                                    // // font: 14px/1 ;
+                                    // font-style: normal;
+                                    // text-rendering: auto;
+                                    // -webkit-font-smoothing: antialiased;
+
+                                    font-family: 'FontAwesome';
+                                    font-weight: 700;
+                                    font-style: normal;
+                                    font-size: 21px;
+                                    margin-top: -3px;
+                                    display: block;
+                                    margin-right: 9px;
+                                }
+                                .fa-facebook::before{
+                                    content: '\f09a';
+                                }
+                                .fa-twitter::before{
+                                    content: '\f099';
+                                }
+                                .fa-instagram::before{
+                                    content: '\f16d';
+                                }
+                                .fa-youtube-play::before{
+                                    content: '\f16a';
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .footer_right{
+            margin-top: 85px;
+            font-size: 20px;
+            // h4{
+            //     color: $letter-c;
+            //     margin-bottom: 29px;
+            // }
+            dl{
+                color: $letter-c;
+                dt{
+                    display: -webkit-inline-box;
+                    .icon{
+                        color: $icon-c;
+                        cursor: pointer;
+                    }
+                    .material-icons-ico{
+                        font-family: 'Material Icons';
+                        font-weight: 700;
+                        font-style: normal;
+                        font-size: 21px;
+                        margin-top: -3px;
+                        display: block;
+                        margin-right: 9px;
+                    }
+                    .material-icons-room::before{
+                        content: '\e8b4';
+                    }
+                    .material-icons-local_phone::before{
+                        content: '\e551';
+                    }
+                    .material-icons-email::before{
+                        content: '\e0be';
+                    }
+                }
+                dd{
+                    margin-bottom: .5rem;
+                    display: inline-block;
+                    margin-left: 15px;
+                    .unvan_asan{
+                        display: inline-table;
+                        margin-top: 8px;
+                    }
+                    a{
+                        color: $icon-c;
+                        &:hover{
+                            color: $letter-c;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+    .row{
+        .footer_end{
+            background: $primary-c;
+            height: 60px;
+            .span3{
+            }
+            p{
+                color: white;
+                margin-left: 128px;
+                padding-top: 22px;
+            }
+        }
+    }
+}

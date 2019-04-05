@@ -1,0 +1,92 @@
+@import 'partials/variables';
+body{
+    // background-image: url(../img/cover_photos/map.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+header{
+    height: 141px;
+    z-index: 1;
+
+    .menu1{
+        background-image: url(../img/cover_photos/map.jpg);
+        // position: fixed;
+        // width: 1366px;
+        height: 108px;
+        // margin-top: 7px;
+        .main_name{
+            a{
+                // img{
+
+                    .logo1{
+                        height: 86px;
+                        margin-top: 9px;
+                        margin-left: 46px;
+                        }
+                        .logo2{
+                            height: 91px;
+                            margin-top: -106px;
+                            margin-left: 379px;
+                        }
+                // }
+            }
+        }
+        .atasozu{
+            // margin-left: -64px;
+            margin-top: 31px;
+            .span1{
+                // margin-top: -60px;
+                margin-left: 290px;
+                color: white;
+                display: block;
+            }
+            .span2{
+                color: white;
+                margin-left: 674px;
+                margin-top: 7px;
+                font-size: 18px;
+                font-weight: 600;
+                display: block;
+            }
+
+        }
+    }
+    .menu2{
+        background: $primary-c;
+        // position: fixed;
+        // width: 1366px;
+        height: 53px;
+        .navbar_list{
+            margin-right: 30px;
+            ul{
+                list-style: none;
+                display: -webkit-inline-box;
+                height: 29px;
+                text-align: center;
+                margin-top: 13px;
+                margin-left: 209px;
+                li{
+                    margin-right: 128px;
+                    
+                    a{
+                        color: white;
+                        text-decoration: none;
+                        font-size: 19px;
+                        font-weight: 400;
+                        font-family: 'Roboto Condensed', sans-serif;
+                        .li_doyus{
+                        margin-top: -13px;
+                    }
+                        &:hover{
+                            color: $icon-c;
+                            transition: .3s ease;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+}
